@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Signin Page</title>
+  <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+ 
+    <div class="logo">
+      <img src="images/amazon.jpg" alt="Your Logo">
+    </div>
+    <div class="container">
+    <h2>Sign in</h2>
+    
+      <form id="signinForm" action="login.php" method="post">
+      
+        <label for="name">Email or Phone Number</label>
+        <input type="text" id="name" name="name" required>
+     
+      <strong>password</strong>
+      <span class="right"><a href="#">Forgot your password?</a></span>
+      <input type="text" id="password" required>
+      <label class="checkbox">
+        <input id="remember_me" type="checkbox">
+        <span class="checkmark"></span>Remember Me
+      </label>
+     
+      <button type="submit">Signin</button>
+
+    </form>
+    <div class="form-group divider">
+        <hr class="left">
+        <small>New to site?</small>
+        <hr class="right">
+    </div>
+    <a href="Loginpage.html">Create an Account</a></span>
+      </form>
+   <p>By signing in you are agreeing to our <a href="#" >Terms of Use </a>and our <a href="#"> Privacy Policy.</a></p>
+
+   </div>
+
+    <script src="page1.js"></script>
+</body>
+</html>
